@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'comic zine';
+    src: url('polices/comic_zine_ot-webfont.eot') format('eot'),
+         url('polices/comic_zine_ot-webfont.woff') format('woff'),
+         url('polices/comic_zine_ot-webfont.ttf') format('truetype'),
+         url('polices/comic_zine_ot-webfont.svg') format('svg');
+}
+
+body
+{
+	background-color: #BFD7E3;
+	font-family: georgia, "trebuchet ms", arial, serif;
+	color: #0F1E31;
+	text-align: justify;
+}
+
+#bloc_page
+{
+    width: 100%;
+    margin: auto;
+}
+
+.lienstop , .liensleft
+{
+	display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.lienstop ul , .liensleft ul
+{
+    list-style-type: none;
+}
+
+.lienstop li
+{
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.lienstop a , .liensleft a
+{
+    font-size: 1.3em;
+    color: #0F1E31;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #567DB1;
+    border-bottom: 3px solid #0F1E31;
+}
+
+p, ul
+{
+	color: #0F1E31;
+	font-size: 1.1em;
+	font-family: georgia, "trebuchet ms", arial, serif;
+	text-align: justify;
+}
+
+h1
+{	
+	background-color: #0F1E31;
+	color: white;
+	width: 50%;
+	min-width: 350px;
+	margin: auto;
+	text-align: center;
+	font-size: 3em;
+	font-family: "comic zine", georgia, "trebuchet ms", arial, serif;
+	text-shadow: 2px 2px 4px #BFD7E3;
+}
+
+.affiche
+{
+	text-align: center;
+}
+
+h2
+{
+	color: #0058B0;
+	font-family: georgia, "trebuchet ms", arial, serif;
+}
+ 
+ .liensleft
+ {
+ float: left;
+ }
+ 
+ .liensleft li
+ {
+ margin-top: 30px;
+ }
+ 
+ .text
+ {
+ margin-left: 350px;
+ margin-top: 20px;
+ }
